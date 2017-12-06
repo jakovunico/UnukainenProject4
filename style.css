@@ -1,0 +1,36 @@
+body{
+    background-color: #E986E6;
+    text-align: center;
+    
+}
+
+
+div{
+    
+position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-80%, -20%);
+  font-family: 'Permanent Marker', cursive;
+    font-size: 25px;
+    color: white;
+
+}
+
+section{
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+    
+}
+
+.container:hover .image {
+  opacity: 0.5;
+}
+
+.image{
+    
+    opacity: 3;
+  transition: .5s ease;
+    backface-visibility: hidden;}
